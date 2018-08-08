@@ -26,7 +26,7 @@ func main() {
 	flag.Parse()
 
 	http.HandleFunc(nodego.HTTPTrigger, func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintln(w, "Hello, I'm native Go!")
+		fmt.Fprintln(w, "Hello, I'm Faruk2 Go!")
 	})
 
 	nodego.TakeOver()

@@ -14,7 +14,7 @@
 
 _ = require("execer");
 
-exports.helloWorld = function helloWorld (req, res) {
+exports.testFunc = function testFunc (req, res) {
 	res.set('Content-Type', 'text/plain');
 	res.send("it didn't work :(");
 }
